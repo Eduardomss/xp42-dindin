@@ -1,0 +1,49 @@
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1 {
+    width: 488px;
+    height: 216px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    margin: 242px 39px 0px 206px;
+    color: #FF4081; 
+    
+
+}
+
+section  p{    
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    width: 462px;
+    margin: 19px 711px 38px 207px;
+    
+}
+
+section a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 38px 0px 0px 207px;
+    width: 268px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+}
+
+.banner{
+    margin: 252px auto;
+}
