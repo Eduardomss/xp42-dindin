@@ -1,8 +1,16 @@
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: auto;
     padding-top: 105px;
+    
+    
  }
  
  form {
+    margin-bottom: 97px;
      background: url('assets/ilustra-contato.png') 80% 50% no-repeat;
      display: block;
      width: 100%;

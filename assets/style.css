@@ -1,9 +1,10 @@
 main{
     max-width: 1440px;
-    
+    margin: auto;
 }
 .section1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 39px;
@@ -57,6 +58,7 @@ main{
 
 .section2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;    
     gap: 50px;
     padding-top: 87.5px;
@@ -109,6 +111,7 @@ main{
     border-radius: 62px;
     text-decoration: none;
     margin-bottom: 117px;
+    padding: 18.47px 19.37px;
     
    
 }
@@ -171,6 +174,7 @@ main{
 
 .section4 article{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     
@@ -194,18 +198,74 @@ main{
     
 }
 
-
-.section5 a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    font-size: 25px;
-    color: #FF4081;
+.botao{
+    width: 50%; 
     border: 2px solid #FF4081;
     border-radius: 62px;
     width: 289px;
-    Height: 51px;
-    margin: 101px 569px 53px 582px;
+    text-align: center;
+    Height: 51px;    
+    padding-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.botao a{
+    color: #FF4081;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+.section5 {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+    .container{
+        display: flex;
+        box-sizing: border-box;
+        padding: 0 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .section2{
+        margin: auto;
+    }
+    
+    .section4 article{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+@media only screen and (max-width: 481px) {
+
+    .titulo{
+        max-width: 90%;
+    }
+    .section1 img{
+        width: 90%;
+    }
+    .container {
+        width: 430px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2{
+        margin: auto;
+        justify-content: center;
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
 }

@@ -81,3 +81,62 @@ main {
     display: flex;
     
 }
+
+
+
+@media only screen and (max-width: 769px) {
+
+    .inicio{
+        gap: 0;
+    }
+
+    .meio{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: normal;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-end;
+        
+         
+
+
+
+    }
+    .container {
+        width: 720px;
+    }
+    
+}
+
+@media only screen and (max-width: 481px) {
+
+    .container {
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .meio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+
+    }
+    .meio div:nth-child(odd) {
+        margin: 0;
+        
+    }
+    .meio div{
+        width: 100%;
+        margin-right: 0;
+    }
+    .meio div img, p{
+        width: 90%;
+    }
+    header h2 {
+        margin: 10px 0;
+    }
+}
